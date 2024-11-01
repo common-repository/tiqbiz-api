@@ -1,0 +1,87 @@
+.error .dampen {
+    color: #bbb;
+}
+
+#tiqbiz_api_settings #cid {
+    width: 100px;
+}
+
+#tiqbiz_api_settings #api_key {
+    width: 350px;
+}
+
+#tiqbiz_api_settings #boxes {
+    margin: 5px;
+    list-style: disc inside;
+}
+
+#tiqbiz_api_settings #timeout {
+    width: 50px;
+}
+
+#tiqbiz_api_settings dl {
+    float: left;
+    width: 250px;
+}
+
+#tiqbiz_api_settings dt {
+    width: 150px;
+}
+
+#tiqbiz_api_settings dt,
+#tiqbiz_api_settings dd {
+    float: left;
+    margin-left: 0;
+}
+
+#tiqbiz_api_sync_progress {
+    padding: 15px;
+    margin: 5px 0 15px 0;
+    display: block;
+}
+
+#tiqbiz_api_sync_progress img {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#tiqbiz_api_sync_progress p {
+    line-height: 20px;
+}
+
+#tiqbiz_api_sync_progress .in-progress-message {
+    display: none;
+}
+
+#tiqbiz_api_sync_progress.in-progress .in-progress-message {
+    display: block;
+}
+
+#tiqbiz_api_sync_progress .spinner {
+    display: block;
+    visibility: visible;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+#tiqbiz_api_sync_progress ol {
+    list-style: none;
+    margin: 0;
+}
+
+#tiqbiz_api_sync_progress ol li {
+    margin: 0;
+    clear: both;
+}
+
+#tiqbiz_api_sync_progress ol li span.success {
+    color: #7ad03a;
+}
+
+#tiqbiz_api_sync_progress ol li span.error {
+    color: #dd3d36;
+}
+
+#tiqbiz_api_sync_success {
+    display: none;
+}
